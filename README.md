@@ -1,11 +1,12 @@
 # libapputils
 
+[![](https://jitpack.io/v/ZhanGSKen/libapputils.svg)](https://jitpack.io/#ZhanGSKen/libapputils)
+
 #### 介绍
 安卓应用工具类
 
 #### 软件架构
 软件架构说明
-
 
 #### 安装教程
 
