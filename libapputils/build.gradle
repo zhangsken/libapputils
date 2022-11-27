@@ -14,10 +14,10 @@ afterEvaluate {
         //}
         publications {
             release(MavenPublication) {
-                groupId = 'com.github.gianstudio'
+                groupId = 'com.github.zhangsken'
                 artifactId = 'libapputils'
 				// 版本号说明：{项目结构版本号}.{功能识别版本号}.{代码调试号}
-                version = '1.1.1'
+                version = '1.0.0'
     
                 //from components.java
                 // 必须有这个 否则不会上传AAR包
@@ -30,8 +30,8 @@ afterEvaluate {
                 
                 pom {
                     name = 'Application Utils Library'
-                    description = 'Gian Studio\'s Application Utils Library'
-                    url = 'https://github.com/gianstudio/libapputils.git'
+                    description = 'ZhanGSKen\'s Application Utils Library'
+                    url = 'https://github.com/zhangsken/libapputils.git'
                     licenses {
                         license {
                             name = 'The Apache License, Version 2.0'
@@ -40,9 +40,9 @@ afterEvaluate {
                     }
                     developers {
                         developer {
-                            id = 'gianstudio'
-                            name = 'GianStudio'
-                            email = 'l3981402@gmail.com'
+                            id = 'zhangsken'
+                            name = 'ZhanGSKen'
+                            email = 'ZhanGSKen@QQ.COM'
                         }
                     }
                 }
@@ -54,7 +54,7 @@ afterEvaluate {
 
 android {
     compileSdk 33
-    buildToolsVersion '30.0.3'
+    buildToolsVersion '33.0.3'
     defaultConfig {
         minSdkVersion 26
         targetSdkVersion 29
