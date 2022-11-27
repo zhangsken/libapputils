@@ -14,7 +14,7 @@ afterEvaluate {
         //}
         publications {
             release(MavenPublication) {
-                groupId = 'com.github.zhangsken'
+                groupId = 'com.gitee.zhangsken'
                 artifactId = 'libapputils'
 				// 版本号说明：{项目结构版本号}.{功能识别版本号}.{代码调试号}
                 version = '1.0.0'
