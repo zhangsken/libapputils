@@ -17,7 +17,7 @@ afterEvaluate {
                 groupId = 'com.github.zhangsken'
                 artifactId = 'libapputils'
 				// 版本号说明：{项目结构版本号}.{功能识别版本号}.{代码调试号}
-                version = '1.0.4'
+                version = '1.0.6'
     
                 //from components.java
                 // 必须有这个 否则不会上传AAR包
@@ -54,10 +54,10 @@ afterEvaluate {
 
 android {
     compileSdk 33
-    buildToolsVersion '30.0.3'
+    buildToolsVersion '33.0.3'
     defaultConfig {
         minSdkVersion 21
-        targetSdkVersion 29
+        targetSdkVersion 30
     }
 
     buildTypes {

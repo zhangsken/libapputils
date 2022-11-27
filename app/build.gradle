@@ -8,13 +8,13 @@ android {
     }
 	
     compileSdkVersion 33
-    buildToolsVersion '30.0.3'
+    buildToolsVersion '33.0.3'
 	
 	
     defaultConfig {
         applicationId "com.github.zhangsken.apputils"
         minSdkVersion 21
-        targetSdkVersion 29
+        targetSdkVersion 30
         versionCode 1
         //{版本控制号}.{功能号}.{调试号}
         versionName "1.0.0"
