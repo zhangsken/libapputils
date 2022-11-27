@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="cc.zhangsken.libapputils" >
+
+    <application>
+        <activity android:name="cc.zhangsken.libapputils.CrashHandler$CrashActiviy"/>
+    </application>
+
+</manifest>
+

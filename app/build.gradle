@@ -1,0 +1,40 @@
+plugins {
+    id 'com.android.application'
+}
+
+android {
+    lint {
+		disable "ExpiredTargetSdkVersion","HardcodedText","UnusedResources","StaticFieldLeak"
+		//创建警告基准
+        baseline = rootProject.file("lint-baseline.xml")
+    }
+	
+    compileSdkVersion 32
+    buildToolsVersion '30.0.3'
+	
+	
+    defaultConfig {
+        applicationId "cc.zhangsken.apputils"
+        minSdkVersion 26
+        targetSdkVersion 29
+        versionCode 1
+        //{版本控制号}.{功能号}.{调试号}
+        versionName "1.0.0"
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+        }
+    }
+    
+    compileOptions {
+		sourceCompatibility JavaVersion.VERSION_11
+		targetCompatibility JavaVersion.VERSION_11
+	}
+}
+
+dependencies {
+	implementation project(':libapputils')
+}
