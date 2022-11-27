@@ -1,4 +1,4 @@
-package cc.zhangsken.libapputils;
+package com.github.zhangsken.libapputils;
 
 import android.app.Activity;
 import android.app.Application;

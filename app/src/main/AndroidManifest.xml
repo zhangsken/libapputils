@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="cc.zhangsken.apputils">
+    package="com.github.zhangsken.apputils">
 	
     <application
-		android:name="cc.zhangsken.libapputils.BaseApplication"
+		android:name="com.github.zhangsken.libapputils.BaseApplication"
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
         android:label="@string/app_name"

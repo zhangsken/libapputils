@@ -1,4 +1,4 @@
-package cc.zhangsken.apputils;
+package com.github.zhangsken.apputils;
 
 import android.os.*;
 import android.app.*;
