@@ -9,7 +9,7 @@ android {
         baseline = rootProject.file("lint-baseline.xml")
     }
 	
-    compileSdkVersion 32
+    compileSdkVersion 33
     buildToolsVersion '30.0.3'
 	
 	
